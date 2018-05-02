@@ -22,7 +22,7 @@ public class ContaCantina {
 	public String listarDetalhes(){
 		String saida = "";
 		for (int i = (this.ArrayDetalhes.size() - 1) ; i >= (this.ArrayDetalhes.size() - 5) ; i--){
-		 saida += (this.ArrayDetalhes.get(i));
+		 saida += (this.ArrayDetalhes.get(i)) + " \n";
 		}
 		return saida;
 		

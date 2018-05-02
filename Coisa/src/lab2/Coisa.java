@@ -35,7 +35,7 @@ public class Coisa {
             prog2.cadastraNota(2, 6.0);
 
             prog2.cadastraNota(3, 7.0);
-
+            
             System.out.println(prog2.aprovado());
 
             prog2.cadastraNota(4, 10.0);
@@ -48,8 +48,14 @@ public class Coisa {
 
             ContaCantina mulherDoBolo = new ContaCantina("Mulher do Bolo");            
 
-            mulherDoBolo.cadastraLanche(2, 500);
+            mulherDoBolo.cadastrarLanche(2, 500, "Bolo muito bom");
+            mulherDoBolo.cadastrarLanche(2, 500, "Bolo muito bom");
+            mulherDoBolo.cadastrarLanche(2, 500, "Bolo muito bomww");
+            mulherDoBolo.cadastrarLanche(2, 500, "Bolo muito boms");
+            mulherDoBolo.cadastrarLanche(2, 500, "Bolo muito boms");
 
+            System.out.println(mulherDoBolo.listarDetalhes());
+            
             mulherDoBolo.cadastraLanche(1, 500);
 
             mulherDoBolo.pagaConta(200);
